@@ -196,7 +196,7 @@ button::-moz-focus-inner {
   margin-top: 1.563vw;
 }
 .content__other-info--table-title {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.458vw;
   text-align: center;
   padding-bottom: 0.521vw;
@@ -316,4 +316,115 @@ button::-moz-focus-inner {
 }
 .footer__contacts-value:hover {
   color: #31AA4F;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 2.5vw;
+  }
+  .content__info {
+    gap: 2.874vw;
+  }
+  .content__info-card {
+    flex-direction: column;
+    gap: 6.25vw;
+  }
+  .content__gallery, .content__info {
+    width: 100%;
+  }
+  .content__navigation-item {
+    width: 10.938vw;
+    height: 10.938vw;
+  }
+  .content__title {
+    font-size: 4.375vw;
+  }
+  .content__price {
+    font-size: 3.75vw;
+  }
+  .content__price-symbol {
+    font-size: 3.125vw;
+  }
+  .content__form-order {
+    height: 5.21vw;
+  }
+  .content__form-input {
+    width: 4.688vw;
+    font-size: 1.563vw;
+  }
+  .content__form-btn {
+    width: 15.625vw;
+    font-size: 1.563vw;
+  }
+  .content__caracteristic {
+    margin-bottom: 2.874vw;
+  }
+  .content__tabs-content {
+    margin-top: 2.874vw;
+    margin-bottom: 2.874vw;
+  }
+  .content__other-info--title {
+    gap: 2vw;
+  }
+  .content__other-info h3, .content__other-info h4 {
+    font-size: 3vw;
+    margin-bottom: 3.125vw;
+  }
+  .content__other-info h3 span:before, .content__other-info h4 span:before {
+    bottom: -2vw;
+  }
+  .content .btn {
+    font-size: 1.563vw;
+    width: 17.188vw;
+    height: 3.907vw;
+  }
+  .footer {
+    padding: 6.25vw 0;
+  }
+  .footer__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vw;
+  }
+  .footer .logo {
+    width: 19.531vw;
+  }
+  .footer__list {
+    gap: 3.125vw;
+  }
+  .footer__link {
+    font-size: 2.344vw;
+  }
+  .footer__title {
+    font-size: 3.255vw;
+  }
+  .footer__socials-wrapper {
+    justify-content: center;
+    gap: 4.688vw;
+    margin-top: 4.688vw;
+  }
+  .footer__socials-item {
+    width: 6.51vw;
+    height: 6.51vw;
+  }
+  .footer__contacts {
+    text-align: center;
+  }
+  .footer__contacts-item, .footer__contacts-value {
+    font-size: 2.344vw;
+  }
+}
+@media (max-width: 480px) {
+  .footer .logo {
+    width: 25vw;
+  }
+  .footer__title {
+    font-size: 4.688vw;
+  }
+  .footer__contacts {
+    text-align: center;
+  }
+  .footer__contacts-item, .footer__contacts-value {
+    font-size: 3.75vw;
+  }
 }
